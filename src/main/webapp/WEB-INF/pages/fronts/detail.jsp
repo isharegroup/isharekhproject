@@ -293,29 +293,16 @@
             </div>
         </div>
         <div class="col-6">
-            <h1 style="background-color: red;height: 61px;">Hello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello Wo</h1>
+            <h1 style="background-color: red;height: 261px;">Hello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello Wo</h1>
         </div>
     </div>
 </div>
 
 <script type="text/javascript" src="../dist/js/ui/main.js"></script>
 <script type="text/javascript" src="../dist/js/ui/jquery-2.1.4.js"></script>
-<div class="container">
-    <center>
-        <div class="pagination">
-            <a href="#">&laquo;</a>
-            <a href="#">1</a>
-            <a class="active" href="#">2</a>
-            <a href="#">3</a>
-            <a href="#">4</a>
-            <a href="#">5</a>
-            <a href="#">6</a>
-            <a href="#">&raquo;</a>
-        </div>
-    </center>
-</div>
-<footer class="container-fluid text-center" style="height: 207px; background-color: rgb(100,200,20);">
-    <p>Footer Text</p>
+<footer class="container-fluid text-center" style="height: 50px; background-color: rgb(100,200,20);">
+    <br>
+    <center>Copy right isharekh.com;         <b>Phone: </b><em>097 66 17 899</em></center>
 </footer>
 </body>
 </html>
