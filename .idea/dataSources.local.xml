@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="ishare_kh@localhost" uuid="55f4f3e5-9430-4569-a70e-cc2eaef66062">
+      <database-info product="PostgreSQL" version="9.5.3" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.1.1">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <user-name>postgres</user-name>
+      <introspection-schemas>ishare_kh:public</introspection-schemas>
+    </data-source>
+  </component>
+</project>

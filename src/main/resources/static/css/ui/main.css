@@ -1,0 +1,21 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 207px;
+}
+.font_color{
+    color: rgba(249,249,255,0.97);
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+#hello{
+    background-color: blue;
+}
