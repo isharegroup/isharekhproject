@@ -8,16 +8,16 @@ import java.util.List;
 Create By: Ron Rith
 Create Date: 3/15/2018
 */
-public interface EntityService<T> {
-    List<T> getAll();
+public interface EntityService<E> {
+    List<E> getAll();
 
-    void save(T t);
+    void save(E e);
 
-    List<T> getAllTShort();
+    List<E> getAllTShort();
 
-    T getById(Long id);
+    E getById(Long id);
 
     void delete(Long id);
 
-    void update(T t,Long id);
+    void update(E e,Long id);
 }
