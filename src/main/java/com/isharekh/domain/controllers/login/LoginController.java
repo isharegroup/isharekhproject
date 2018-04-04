@@ -216,9 +216,8 @@ public class LoginController {
 
 		NewsType newsType = new NewsType();
 		NewsType newsType2 = new NewsType();
-		NewsType newsType3 = new NewsType();
 
-		newsType.setDes("ទំព័រដើម");
+		newsType.setDes("ទំរដើម");
 		newsType.setDesEn("Home");
 		newsType.setSecUser(secUser);
 

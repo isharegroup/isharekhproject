@@ -1,13 +1,14 @@
 spring:
   datasource:
-    password: 1
-    url: jdbc:postgresql://localhost:5432/ishare_kh
-    username: postgres
+    password:
+    url: jdbc:mysql://localhost:3306/ishare_kh
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
   jpa:
       generate-ddl: true
       hibernate:
-        ddl-auto: update
-      database-platform: org.hibernate.dialect.PostgreSQLDialect
+        ddl-auto: create-drop
+      database-platform: org.hibernate.dialect.MySQL5Dialect
       show-sql: true
 
 
