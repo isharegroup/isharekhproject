@@ -194,4 +194,9 @@ public class UtilityController {
     private String todoGEditor() {
         return "/utilities/editors/editor";
     }
+
+    @RequestMapping(value = "/ui/carousel",method = RequestMethod.GET)
+    private String goCarousel(){
+        return "/utilities/carousel";
+    }
 }

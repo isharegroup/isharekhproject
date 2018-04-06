@@ -1,16 +1,26 @@
+#spring:
+#  datasource:
+#    password:
+#    url: jdbc:mysql://localhost:3306/ishare_kh
+#    username: root
+#    driver-class-name: com.mysql.jdbc.Driver
+#  jpa:
+#      generate-ddl: true
+#      hibernate:
+#        ddl-auto: create-drop
+#      database-platform: org.hibernate.dialect.MySQL5Dialect
+#      show-sql: true
 spring:
   datasource:
-    password:
-    url: jdbc:mysql://localhost:3306/ishare_kh
-    username: root
-    driver-class-name: com.mysql.jdbc.Driver
+    password: 1
+    url: jdbc:postgresql://localhost:5432/ishare_kh
+    username: postgres
   jpa:
       generate-ddl: true
       hibernate:
-        ddl-auto: create-drop
-      database-platform: org.hibernate.dialect.MySQL5Dialect
+        ddl-auto: update
+      database-platform: org.hibernate.dialect.PostgreSQLDialect
       show-sql: true
-
 
 # spring:
 #      thymeleaf:
