@@ -52,6 +52,43 @@
     </script>
 </head>
 <body>
+<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: rgb(100,200,20);">
+    <div class="container-fluid" style="background-color: rgb(100,200,20);">
+        <div class="navbar-header" style="background-color: rgb(100,200,20);">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#" style="color: rgba(249,249,255,0.97);">
+                Logo
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <c:forEach items="${newstypes}" var="newstype">
+                <div class="dropdown">
+                    <ul class="dropbtn">${newstype.desEn}</ul>
+                </div>
+            </c:forEach>
+            <%--<c:forEach items="${newsTypesPHS}" var="newstype">
+                <div class="dropdown">
+                    <ul class="dropbtn">${newstype.desEn}</ul>
+                    <c:forEach items="${newsTypesIS}" var="newstyp">
+                        <div class="dropdown-content">
+                            <a href="#">${newstyp.desEn}</a>
+                        </div>
+                    </c:forEach>
+                </div>
+            </c:forEach>--%>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/login" style="color: rgba(249,249,255,0.97);"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+
+
+    </div>
+</nav>
+<br><br><br>
 <div class="container">
     <div class="row">
         <div id="myCarousel" class="carousel fdi-Carousel slide">
@@ -107,5 +144,10 @@
             <!--/carousel-inner-->
         </div><!--/myCarousel-->
     </div>
-</div></body>
+</div>
+<footer class="container-fluid text-center" style="height: 50px; background-color: rgb(100,200,20);">
+    <br>
+    <center>Copy right isharekh.com;         <b>Phone: </b><em>097 66 17 899</em></center>
+</footer>
+</body>
 </html>
