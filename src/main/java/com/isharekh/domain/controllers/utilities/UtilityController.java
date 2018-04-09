@@ -199,4 +199,8 @@ public class UtilityController {
     private String goCarousel(){
         return "/utilities/carousel";
     }
+    @RequestMapping(value = "/layout/layoutbody")
+    private String toBodyLayout(){
+        return "/utilities/layouts/layoutbody";
+    }
 }

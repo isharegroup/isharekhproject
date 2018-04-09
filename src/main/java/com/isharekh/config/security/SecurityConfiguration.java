@@ -74,7 +74,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 				   ,"/moment/**","/min/**","/jquery-knob/**","/jvectormap/**","/jquery/**","/jquery-ui/**"
 				   ,"/img/**","/jquery.js/**","/bootstrap.css/**","/bootstrap-theme.css/**","/raphael/**"
 				   ,"/Ionicons/**","/bootstrap-daterangepicker/**","/datatables.net-bs/**","/datatables.net/**"
-				   ,"/datatables.net-bs/**","/editors/**","/fronts/**"
+				   ,"/datatables.net-bs/**","/editors/**","/fronts/**","/layouts/**"
 		   );
 	}
 
